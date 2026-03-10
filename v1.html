@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>STARBLOCK</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://www.paypalobjects.com/ncp/cart/cart.js" data-merchant-id="HB776WQTEPHZU"></script>
+</head>
+
+
+<body id="bdy">
+    
+
+        <header>
+            <div class="headercontent">
+                <div class="headerelement logo">
+                    <a class="logotext" href="index.html">Starblock</a>
+                    
+                
+                </div>
+                
+                <div class="headernav headerelement">
+                    <a href="index.html" class="navelement">Products</a>
+                    <paypal-cart-button data-id="pp-view-cart"></paypal-cart-button>
+                    <script>
+                    cartPaypal.Cart({ id: "pp-view-cart" })
+                    </script>
+                    <!--<a class="navelement" href="#" id="cart-btn">Cart (<label for="itemamount"></label>)</a>-->
+                    
+                </div>
+            </div>
+            
+        </header>
+    
+
+    
+    <!--
+    <div class="cart" id="cart-overlay">
+        
+        <div class="cartbox">
+            <div class="carthead">
+                <h1>Your Cart</h1>
+                <a style="font-size: xx-large;" href="#" id="close-cart">&times;</a>
+            </div>
+
+            <div class="cartbody">
+
+
+                <div class="cartitem">
+                    <a class="cartitemimage" href="#" style="background-image: url(v1.webp);"></a>
+                        <div class="cartitemtopbottom">
+                        
+                        <div>
+                            <label for="name"><b>Starblock V2</b></label>
+                            <div class="leftright">
+                                <a>Price:</a>
+                                <label for="price">CHF 500.-</label>
+                            </div>
+                        </div>
+                        <p>Delete</p>
+                    </div>
+                </div>
+                
+
+                
+                
+
+
+
+            </div>
+            
+            <div class="cartfooter">
+                <div class="leftright">
+                    <a>Total:</a>
+                    <a>CHF 500.-</a>
+                </div>
+                
+                <button class="spaceup">Checkout</button>
+            </div>
+        </div>
+    </div>
+    --><!---->
+    
+    <div class="content">
+        <!--<div class="one">
+            <div class="content1">
+                <h1>V1</h1>
+                
+            </div>
+            
+        </div>-->
+            <div class="two">
+                
+                
+                
+                
+                <div class="twocontent">
+                    <div class="content2">
+                        <div>
+                            <!--<h1 style="user-select: none;"><br></h1>-->
+                            <h1>V1</h1>
+                            <p>The companies launch product. Designed in Switzerland.</p>
+                            <p>Materials: undefined,</p>
+                            <p>Scratch resistant</p>
+                            <p>Color: Gray</p>
+                            
+                            
+                            
+                            <!--<p>Ohne MwSt. und Versandkosten</p>-->
+                                
+                            
+                        </div>
+                        <div>
+                            
+                            <p>Price per unit: CHF 500.-</p>
+                            <p>Excl. Shipping cost, shipping worldwide</p>
+                            <paypal-add-to-cart-button data-id="HNVSQ3DNFQSWU"></paypal-add-to-cart-button>
+                            <script>
+                            cartPaypal.AddToCart({ id: "HNVSQ3DNFQSWU" })
+                            </script>
+                            <!--<button class="add-to-cart" data-name="V1" data-price="500" ><a style="color: white;">Add to Cart</a></button>-->
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="twocontent">
+                    
+                    <div class="content1">
+                        
+                    <a id="mainImage" class="onecontent" style="background-image: url(v1.webp);"></a>
+                    <div class="imagerow">
+                        <a class="imagerowelement" data-img="v1.webp" style="background-image: url(v1.webp);"></a>
+                        <a class="imagerowelement" data-img="https://picsum.photos/id/235/2000" style="background-image: url(https://picsum.photos/id/235/2000);"></a>
+                        <a class="imagerowelement" data-img="https://picsum.photos/id/238/2000" style="background-image: url(https://picsum.photos/id/238/2000);"></a>
+                        <a class="imagerowelement" data-img="https://picsum.photos/id/239/2000" style="background-image: url(https://picsum.photos/id/239/2000);"></a>
+                        <a class="imagerowelement" data-img="https://picsum.photos/id/236/2000" style="background-image: url(https://picsum.photos/id/236/2000);"></a>
+                    </div>
+                    </div>
+                </div>
+                    
+                
+            </div>
+
+            
+            
+    </div>
+
+    
+    
+    
+
+    <script>
+        const slider = document.querySelector(".imagerow");
+        
+        let isDown = false;
+        let startX;
+        let scrollLeft;
+        
+        slider.addEventListener("mousedown", (e) => {
+            isDown = true;
+            slider.classList.add("dragging");
+            startX = e.pageX - slider.offsetLeft;
+            scrollLeft = slider.scrollLeft;
+        });
+        
+        slider.addEventListener("mouseleave", () => {
+            isDown = false;
+        });
+        
+        slider.addEventListener("mouseup", () => {
+            isDown = false;
+        });
+        
+        slider.addEventListener("mousemove", (e) => {
+            if (!isDown) return;
+        
+            e.preventDefault();
+            const x = e.pageX - slider.offsetLeft;
+            const walk = (x - startX) * 1.5; // drag speed
+            slider.scrollLeft = scrollLeft - walk;
+        });
+        </script>
+
+    
+
+</body>
+
+
+    <footer>
+        
+        <div class="stack2">
+            
+            <a class="logotext">Starblock</a>
+            <p>&copy; 2026 Starblock. All rights reserved.</p>
+        </div>
+        
+        <div class="stack">
+            
+                <a class="link">Impressum</a>
+                <a class="link">Terms of Service</a>
+                <a class="link">Contact</a>
+        </div>
+    </footer>
+    
+
+</html>
