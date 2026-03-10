@@ -142,15 +142,16 @@ header {
     
     
     /*background-color: rgba(0, 0, 0, 0.1);*/
-    transition: background-size 20s linear;
+    /*transition: background-size 20s linear;*/
     background-position: center;
     background-size: 100%;
     background-repeat: repeat;
     /*aspect-ratio: 16 / 9;*/
     width: 100%;
-    aspect-ratio: 1 / 1;
-    max-height: calc(100vh - 20px - 82px - 20px - 10em);
-    height: 600px;
+    /*aspect-ratio: 1 / 1;*/
+    max-height: calc(100% - 20px - 82px - 20px - 10em);
+    height: 400px;
+    
     
 }
 .two{
@@ -181,7 +182,7 @@ header {
     
     /*background-color: rgba(0, 0, 0, 0.1);*/
 
-    transition: background-size 20s linear;
+    /*transition: background-size 20s linear;*/
     background-position: center;
     background-size:cover;
     
@@ -196,18 +197,18 @@ header {
 
 
 
-.onecontent:hover{
+/*.onecontent:hover{
     
     
     
     background-size: 105%;
-}
-.twocontent:hover{
+}*/
+/*.twocontent:hover{
     
     
     
     background-size: 105%;
-}
+}*/
 
 footer{
     max-width: 100vw;
