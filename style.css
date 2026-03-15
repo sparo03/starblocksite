@@ -497,7 +497,7 @@ button:hover{
     .buttonColorStyle {
         background-color: #673ab773 !important;
         color: white !important;
-        border-radius: 100% !important;
+        border-radius: 20px !important;
         font-size: unset !important;
         line-height: unset !important;
     }
