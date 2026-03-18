@@ -512,7 +512,7 @@ button:hover{
     
 
     #paypal-form-fields-container-HNVSQ3DNFQSWU .buttonColorStyle {
-        background-color: #673ab773 !important;
+        background-color: black !important;
         color: white !important;
         height: 5em !important;
         border-radius: 0 !important;
@@ -520,7 +520,7 @@ button:hover{
 
     } 
     .buttonColorStyle {
-        background-color: #673ab773 !important;
+        background-color: black !important;
         color: white !important;
         border-radius: 20px !important;
         font-size: unset !important;
