@@ -558,7 +558,7 @@ button:hover{
     #paypal-form-fields-container-HNVSQ3DNFQSWU .selectContainer {
         select {
             border-radius: 0 !important;
-            height: calc(5em - 10px) !important; 
+            height: 5em !important; 
             padding: 20px !important;
             margin: 20px 0 !important;
             border: solid 1px #000000 !important;
