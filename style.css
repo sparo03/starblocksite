@@ -359,7 +359,7 @@ footer a{
     
     display: flex;
     flex-direction: column;
-    height: 85vh;
+    height: calc(100vh - 20px - 82px);
 
 
 
