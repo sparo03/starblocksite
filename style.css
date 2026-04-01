@@ -604,5 +604,9 @@ button:hover{
     .logoimg{
         width: 150px;
     }
+
+paypal-cart-button {
+    padding: 20px;
+}
     
                        
