@@ -111,7 +111,7 @@ header {
 
   @media (max-width: 550px) {
     footer{
-        flex-direction: column !important;
+        flex-direction: column-reverse !important;
         align-items: center !important;
         flex-wrap: nowrap !important;
 
