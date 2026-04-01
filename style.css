@@ -316,7 +316,7 @@ footer a{
 }
 .imagerowelement{
     background-color: gray;
-    width: 200px;
+    /*width: 200px;*/
     height: 100%;
     
     aspect-ratio: 1 / 1;
