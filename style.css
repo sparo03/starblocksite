@@ -204,8 +204,8 @@ header {
     margin: 0 20px 20px 20px;
     gap: 20px;
 }
-.twocontent{
-    .twocontent {
+
+.twocontent {
     width: 400px; /*Increase/decrease for faster content br*/
     min-width: calc(50% - 20px);
     max-width: calc(100%);
@@ -215,7 +215,7 @@ header {
     display: flex;
     flex-direction: column;
     overflow: hidden;
-}
+
     /*height: calc(100vh - 82px - 20px);*/
     
     
