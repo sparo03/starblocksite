@@ -205,15 +205,15 @@ header {
     gap: 20px;
 }
 .twocontent{
-    /*width: 600px;
+    width: 600px;
     min-width: calc(100% / 2 - 10px);
-    max-width: calc(100%);
+    max-width: calc(100%)
     /*height: calc(100vh - 82px - 20px);*/
     
     
     
-    /*
-    flex-grow: 1;*/
+    
+    flex-grow: 1;
     
     /*background-color: rgba(0, 0, 0, 0.1);*/
 
