@@ -77,6 +77,8 @@ header {
     /*padding: 20px;*/
     user-select: none;
     display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
 
 }
 @media (max-width: 410px) {
