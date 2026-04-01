@@ -95,7 +95,7 @@ header {
         justify-content: center !important;
     }
     .content{
-        padding-top: 139px !important;
+        padding-top: 159px !important;
     }
     .logo{
         width: 100% !important;
@@ -610,7 +610,7 @@ button:hover{
     }
 
 paypal-cart-button {
-    /*padding: 20px;*/
+    padding: 20px;
 }
     
                        
