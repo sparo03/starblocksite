@@ -88,6 +88,7 @@ header {
     }
     .headernav{
         justify-content: space-between !important;
+        flex-direction: column !important;
         
     }
     .headercontent{
@@ -139,6 +140,7 @@ header {
     
 
     justify-content: flex-end;
+    
     
     gap: 20px;
 
