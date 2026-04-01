@@ -320,7 +320,7 @@ footer a{
     height: 100%;
     
     aspect-ratio: 1 / 1;
-    background-size: contain;
+    background-size: cover;
     cursor: pointer;
 }
 .onecontent{
